@@ -1,0 +1,57 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Configs: {
+	ServerConfig: {
+		DisplayName: Server Config
+		Headers.Damage: Damage
+
+		ModificationEnabled: {
+			Label: Damage Modification
+			Tooltip:
+				'''
+				Allows to change a base damage.
+				Won't work if 'Progression Mode' is enabled.
+				'''
+		}
+
+		NightglowModifiedDamage: {
+			Label: Nightglow's Modified Damage
+			Tooltip:
+				'''
+				Modify the base value of the Nightglow's damage
+				works if 'Damage Modification' is turned on.
+				'''
+		}
+
+		ProgressionEnabled: {
+			Label: Progression mode
+			Tooltip:
+				'''
+				Adds a full progression mode to the Nightglow,
+				making it useful through whole game. 
+				Won't work if 'Damage modification' is enabled.
+				'''
+		}
+	}
+}
+
+Progression: {
+	Nightglow: {
+		PreBoss: A faint cosmic shimmer. Defeat King Slime to awaken Nightglow.
+		PostKingSlime: Nightglow brightens slightly. The Eye of Cthulhu watches from the night.
+		PostEyeOfCthulhuText: Dark energies stir. Confront the Corruption’s master to proceed.
+		PostWorldCorruptionText: Bones whisper beneath the glow. Defeat Skeletron to advance.
+		PostSkeletronText: Hellfire reflects in Nightglow. Challenge the Wall of Flesh.
+		PostWallOfFleshText: Cosmic light adapts to Hardmode. Seek and slay Queen Slime.
+		PostQueenSlimeText: Mechanical echoes resonate. Destroy your first Mechanical Boss.
+		PostMech1Text: Nightglow sharpens. Another Mechanical Boss still remains.
+		PostMech2Text: Only one machine stands. Defeat the final Mechanical Boss.
+		PostMech3Text: The jungle calls. Nightglow demands Plantera’s defeat.
+		PostPlanteraText: Ancient power stirs. Face the temple guardian, Golem.
+		PostGolemText: Ancient power empowers Nightglow. Challenge Duke Fishron.
+		PostDukeFishronText: Prismatic light awakens. Defeat my mother - the Empress of Light.
+		PostEmpressOfLightText: Lunar secrets emerge. The Lunatic Cultist must fall.
+		PostLunaticCultistText: Celestial forces converge. Prepare to face the Moon Lord.
+		PostMoonlordText: Well Done! Now I feel the cosmic power within me.
+	}
+}
